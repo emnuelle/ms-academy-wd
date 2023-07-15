@@ -12,8 +12,11 @@ export const section = css`
         align-items: center;
         gap: 4.375rem;
 
-        padding: 2rem; 
+        padding: 0; 
         overflow: hidden;
+
+        background-image: url(../../images/img1.png);
+
         }
 
     `;

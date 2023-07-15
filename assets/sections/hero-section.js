@@ -5,21 +5,28 @@ export class HeroSection extends LitElement {
     static styles = [
         section,
         css`
-            app-logo {
-                width: 160px;
-                height: 160px;
 
-                position: absolute;
-            }
+        app-navbar{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+        }
+
         `,
     ];
 
     render() {
         return html`
 
-            <app-titulo>
-                <app-logo></app-logo>
-            </app-titulo>
+            <app-navbar> </app-navbar>
+
+            <section>
+            </section>
+
+            
+
 
         `;
     }
