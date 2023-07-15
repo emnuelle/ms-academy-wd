@@ -1,0 +1,20 @@
+:root {
+    /* Adicionando variáveis */
+
+    /* cores */
+    --cor-1: #042036;
+    --cor-2: #FFFFFF;
+    --cor-3: #A1B2C1;
+
+    /* fontes */
+    --fonte-titulo: 'Playfair Display';
+    --fonte-texto:  'arimo';
+    --fonte-cursiva: 'Homemade Apple';
+}
+
+body {
+    width: 100%;
+    height: 100svh;
+    margin: 0;
+    background-color: var(--tom-1);
+}
