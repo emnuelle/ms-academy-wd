@@ -1,0 +1,14 @@
+(O arquivo deve ser apagado antes da entrega do projeto!!!)
+
+- Apagar os h2 trocar por p na div campos *(DONE)*
+- Verificar a questão da divs/section (mds que burra como esqueci??????????sdmshfjsh)
+- Questão da div de alunos
+- O ATALHO DO VASCO ERA ALT+Z MESMO EU SABIA QUE NÃO TAVA MALUCONA
+- terminar o rodapé no figma antes de fazer por aqui!! (Ou talvez não ^^)
+- Arrumar os links nas páginas, (tirando a home) - redirecionar tudo direitinho
+
+>>>>> Home Page:
+    - Falta as redes sociais e o rodapé
+
+>>>>> Serviços:
+    - tem que ver o bololo (que eu mesma fiz no figma) do trambique dos alunos > tentar meditar sobre a questão se fica ou Sai
