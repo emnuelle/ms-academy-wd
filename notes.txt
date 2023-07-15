@@ -12,3 +12,24 @@
 
 >>>>> Serviços:
     - tem que ver o bololo (que eu mesma fiz no figma) do trambique dos alunos > tentar meditar sobre a questão se fica ou Sai
+
+*Notas da aula*
+
+(O arquivo deve ser apagado antes da entrega do projeto!!!)
+
+13/07/2023
+> Sempre exportar/linkar os arquivos
+> Prestar atenção se não a exportação está certa no html
+> Tudo que tem () é um função
+> Display Block (relacionado ao box model)
+
+14/07/2023
+> No devtools a tag "#shadow-root (open)" pode indicar que o componente está certo
+> ctrl + espaço (ajuda com os atalhos)
+> website "mdn", p/ auxiliar com as formatações etc
+> A tag <slot> no documento js facilita muito, ajudam com os componetem que podem ser reautilizados e alterados pelo html
+> "lit element" para o template do import/export
+> Flexbox froggy, ajuda no flexbox (um joguinho)
+> Caniuse.com, site que ajuda com medidas (ex custom elements)
+> Arquivos img o professor usou com sliderx, mas no meu ta imgx (pasta public)
+>

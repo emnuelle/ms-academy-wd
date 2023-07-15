@@ -1,16 +1,25 @@
 import { LitElement, html, css } from 'lit';
-import { section } from '../styles/section-style';
+import { section } from '../styles/section-style'
 
 export class HeroSection extends LitElement {
     static styles = [
         section,
         css`
-        background: var(--tom-1);
+            app-logo {
+                width: 160px;
+                height: 160px;
+
+                position: absolute;
+            }
         `,
     ];
 
     render() {
         return html`
+
+            <app-titulo>
+                <app-logo></app-logo>
+            </app-titulo>
 
         `;
     }
