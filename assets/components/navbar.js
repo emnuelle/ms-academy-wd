@@ -5,12 +5,17 @@ export class Navbar extends LitElement {
         css`
         :host {
             display: flex;
-            background: var(--cor-2);
-            width: 22.5rem;
+            background: var(--tom-3);
             height: 5.625rem;
             align-items: center;
             justify-content: space-between;
-        }
+
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            }
 
         app-logo {
             margin-left: auto;
@@ -31,6 +36,7 @@ export class Navbar extends LitElement {
 
     render() {
         return html`
+        
         <app-logo> </app-logo>
 
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

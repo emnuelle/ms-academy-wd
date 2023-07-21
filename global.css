@@ -1,20 +1,21 @@
 :root {
     /* Adicionando variáveis */
+    --tom-1: #042036;
+    --tom-2: #920530;
+    --tom-3: #FFFFFF;
 
-    /* cores */
-    --cor-1: #042036;
-    --cor-2: #FFFFFF;
-    --cor-3: #A1B2C1;
+    --fonte-titulo: 'Playfair Display', serif;
+    --fonte-texto: 'Arimo', sans-serif;
+    --fonte-cursiva: 'Homemade Apple', cursive;
 
-    /* fontes */
-    --fonte-titulo: 'Playfair Display';
-    --fonte-texto:  'arimo';
-    --fonte-cursiva: 'Homemade Apple';
 }
 
 body {
     width: 100%;
-    height: 100svh;
     margin: 0;
-    background-color: var(--cor-1);
+    background-color: var(--tom-1);
+}
+
+.escondido{
+    top: -96px;
 }

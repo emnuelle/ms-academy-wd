@@ -32,4 +32,11 @@
 > Flexbox froggy, ajuda no flexbox (um joguinho)
 > Caniuse.com, site que ajuda com medidas (ex custom elements)
 > Arquivos img o professor usou com sliderx, mas no meu ta imgx (pasta public)
->
+
+
+
+> ctrl + shift + p {wrap}  -> comando "wrap"
+
+> shift + alt + f -> para formatar o codigo
+
+
