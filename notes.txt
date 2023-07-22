@@ -40,3 +40,10 @@
 > shift + alt + f -> para formatar o codigo
 
 
+>>>>>>>>>>> Supotamente seria um quadro assim!!!
+<app-quadro-escrito>
+      <slot nome="titulo">lero lero</slot>
+</app-quadro-escrito>
+
+_______________________________> arrumar essa treta do slot
+

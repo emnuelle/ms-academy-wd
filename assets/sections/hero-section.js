@@ -13,6 +13,11 @@ export class HeroSection extends LitElement {
                 align-items: flex-end;
 
                 padding: 0;
+
+                top: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
             }
 
             .container {
@@ -55,7 +60,7 @@ export class HeroSection extends LitElement {
                 <img src="../../public/img1.png" alt="decole a sua carreira">
                 <div class="img-txt">
                     <h1>Decole a sua carreira!</h1>
-                    <h2>Embarque no mercado de trablho com maestria.</h2>
+                    <h2>Embarque no mercado de trabalho com maestria.</h2>
                 </div>
             </div>
         `;

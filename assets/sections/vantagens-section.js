@@ -11,6 +11,11 @@ export class VantagensSection extends LitElement {
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+
+                top: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
             }
 
             div {

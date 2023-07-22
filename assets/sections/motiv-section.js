@@ -9,10 +9,16 @@ export class MotivSection extends LitElement {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
+                align-items: flex-start;
 
                 align-items: stretch;
 
                 padding: 0;
+
+                top: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
             }
 
             .container {
