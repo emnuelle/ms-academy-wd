@@ -7,35 +7,44 @@ export class HeroSection extends LitElement {
         css`
             :host {
                 display: flex;
-                align-items: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                align-items: flex-end;
+
+                padding: 0;
             }
 
             .container {
                 position: absolute;
-                display: inline-block;
+                
             }
 
             .img-txt {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                padding: 10px;
-                border-radius: 5px;
                 color: var(--tom-3);
                 font-family: var(--fonte-texto);
             }
 
             h1 {
                 position: absolute;
+                align-items: stretch;
                 left: 23px;
-                bottom: 115px;
+                bottom: 75px;
+
+                font-size: 28px;
+                font-weight: 700;
+                line-height: normal;
             }
 
             h2 {
                 position: absolute;
+                align-items: stretch;    
                 left: 23px;
-                bottom: 77px;
+                bottom: 20px;
+
+                font-size: 20px;
+                font-weight: 400;
+                line-height: normal;
             }
         `
     ];
@@ -46,7 +55,7 @@ export class HeroSection extends LitElement {
                 <img src="../../public/img1.png" alt="decole a sua carreira">
                 <div class="img-txt">
                     <h1>Decole a sua carreira!</h1>
-                    <h2>São diversas opções de lero lero</h2>
+                    <h2>Embarque no mercado de trablho com maestria.</h2>
                 </div>
             </div>
         `;

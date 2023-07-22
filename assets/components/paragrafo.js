@@ -1,14 +1,16 @@
 import { LitElement, html, css } from 'lit';
 
-export class Titulo extends LitElement {
+export class Paragrafo extends LitElement {
     static styles = [
         css`
             :host {
                 display: block;
-
+            }
+            slot {
                 color: #FFF;
                 text-align: center;
-                font-family: Playfair Display;
+                font-family: var(--fonte-texto);
+                font-size: 12px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -19,9 +21,9 @@ export class Titulo extends LitElement {
     render() {
         return html`
         <slot>
-        Título
+            paragrafo
         </slot>
         `;
     }
 }
-customElements.define('app-titulo', Titulo);
+customElements.define('app-paragrafo', Paragrafo);
