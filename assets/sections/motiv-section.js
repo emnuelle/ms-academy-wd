@@ -9,8 +9,6 @@ export class MotivSection extends LitElement {
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                align-items: flex-start;
-
                 align-items: stretch;
 
                 padding: 0;

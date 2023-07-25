@@ -16,6 +16,22 @@ export class HomePage extends LitElement {
     render() {
         return html`
 
+            <app-navbar></app-navbar>
+
+            <hero-section></hero-section>
+
+            <vantagens-section></vantagens-section>
+
+            <motiv-section></motiv-section>
+
+            <servicos-section></servicos-section>
+
+            <alunos-section></alunos-section>
+
+            <social-section></social-section>
+
+            <app-rodape></app-rodape>
+
         `;
     }
 }
