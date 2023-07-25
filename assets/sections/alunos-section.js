@@ -11,7 +11,6 @@ export class AlunosSection extends LitElement {
                 flex-wrap: wrap;
                 align-items: flex-start;
 
-                align-items: stretch;
 
                 padding: 0;
 
@@ -26,7 +25,7 @@ export class AlunosSection extends LitElement {
                 flex-direction: column;
                 justify-content: center;
 
-                align-items: flex-start;
+                align-items: center;
                 gap: 21px;
             }
 
@@ -59,6 +58,17 @@ export class AlunosSection extends LitElement {
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
+            }
+
+            app-botao {
+                width: 157px;
+                height: 33px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex-direction: center;
             }
             
 
@@ -98,6 +108,12 @@ export class AlunosSection extends LitElement {
                 </div>
 
             </div>
+
+            <app-botao>
+                <a src="">
+                    Ver Mais
+                </a>
+            </app-botao>
 
         </div>
         

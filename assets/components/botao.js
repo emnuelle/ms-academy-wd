@@ -47,9 +47,9 @@ export class Botao extends LitElement {
         background-color: color-mix(
           in srgb,
           white 15%,
-          var(--button-background, var(--tom2))
+          var(--button-background, var(--tom-4))
         );
-        color: var(--tom1);
+        color: var(--tom-1);
       }
     `,
   ];
@@ -58,7 +58,7 @@ export class Botao extends LitElement {
     return html`
 
     <slot>
-      <button>pressione</button>
+      <button> pressione </button>
     </slot>
       
     `;
