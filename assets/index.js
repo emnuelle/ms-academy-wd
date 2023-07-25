@@ -7,6 +7,7 @@ export * from './components/paragrafo'
 export * from './components/quadro-escrito'
 export * from './components/suc'
 export * from './components/botao'
+export * from './components/rodape'
 
 // Seções
 export * from './sections/hero-section'
