@@ -57,9 +57,9 @@ export class Botao extends LitElement {
   render() {
     return html`
 
-    <slot>
-      <button> pressione </button>
-    </slot>
+      <slot>
+        <button> pressione </button>
+      </slot>
       
     `;
   }

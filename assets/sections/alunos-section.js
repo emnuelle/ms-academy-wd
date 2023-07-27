@@ -1,15 +1,16 @@
 import { LitElement, html, css } from 'lit';
 import { section } from '../styles/section-style';
 
+// Mostrando os clientes anterioes que foram bem sucedidos 
 export class AlunosSection extends LitElement {
     static styles = [ 
         section,
         css`
             :host {
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 flex-wrap: wrap;
-                align-items: flex-start;
+                align-items: center;
 
 
                 padding: 0;
@@ -18,6 +19,24 @@ export class AlunosSection extends LitElement {
                 left: 0;
                 right: 0;
                 width: 100%;
+            }
+
+            #frase-impacto {
+                color: var(--tom-3);
+                font-family: var(--fonte-titulo);
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            strong {
+                color: var(--tom-3);
+                font-family: var(--fonte-cursiva);
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
             }
 
             .ns-alunos {
@@ -70,6 +89,16 @@ export class AlunosSection extends LitElement {
                 align-items: center;
                 flex-direction: center;
             }
+
+            @media (min-width: 1024px){
+                :host {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 100px;
+                }
+            }
             
 
         `
@@ -77,7 +106,10 @@ export class AlunosSection extends LitElement {
 
     render() {
         return html`
-        <app-suc></app-suc>
+
+        <p id="frase-impacto">
+            Aqui o Sucesso é <strong>garantido!</strong>
+        </p>
 
         <div class="ns-alunos">
 

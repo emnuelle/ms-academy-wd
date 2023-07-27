@@ -1,6 +1,7 @@
 import { LitElement, html, css } from 'lit';
 import { section } from '../styles/section-style';
 
+// Disponibilizando as redes sociais
 export class SocialSection extends LitElement {
     static styles = [
         section,

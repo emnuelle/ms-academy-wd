@@ -51,9 +51,11 @@ export class Navbar extends LitElement {
 
     render() {
         return html`
-        <app-logo></app-logo>
 
-        <feather-icon icon="menu" @click=${nav.abrir}></feather-icon>
+            <app-logo></app-logo>
+
+            <feather-icon icon="menu" @click=${nav.abrir}></feather-icon>
+            
         `;
     }
 }

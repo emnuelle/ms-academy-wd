@@ -1,6 +1,7 @@
 import { LitElement, html, css } from "lit";
 import { nav } from "../../main";
 
+// Menu é essencial para auxiliar na acessibilidade do site
 export class MenuSection extends LitElement {
   static styles = [
 

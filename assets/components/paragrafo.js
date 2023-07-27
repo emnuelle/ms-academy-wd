@@ -20,9 +20,9 @@ export class Paragrafo extends LitElement {
 
     render() {
         return html`
-        <slot>
-            paragrafo
-        </slot>
+            <slot>
+                paragrafo
+            </slot>
         `;
     }
 }

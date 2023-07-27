@@ -1,6 +1,7 @@
 import { LitElement, html, css } from 'lit';
 import { section } from '../styles/section-style';
 
+// Página inicial do site, importante para o design e para cativar o cliente
 export class HeroSection extends LitElement {
     static styles = [
         section,
@@ -10,7 +11,7 @@ export class HeroSection extends LitElement {
                 flex-direction: row;
                 flex-wrap: wrap;
 
-                align-items: flex-end;
+                align-items: center;
 
                 padding: 0;
 
@@ -23,6 +24,11 @@ export class HeroSection extends LitElement {
             .container {
                 position: absolute;
                 
+            }
+
+            app-quadro {
+                width: 400px;
+                height: 700px;
             }
 
             .img-txt {
@@ -51,17 +57,29 @@ export class HeroSection extends LitElement {
                 font-weight: 400;
                 line-height: normal;
             }
+
+            @media (min-width: 520px){
+                app-quadro {
+                    width: 900px;
+                    height: 500px;
+                }
+            }
         `
     ];
 
     render() {
         return html`
+
+            
             <div class="container">
-                <img src="../../public/img1.png" alt="decole a sua carreira">
+                <app-quadro>
+                    <img src="../../public/img3.png">
+                </app-quadro>
                 <div class="img-txt">
                     <h1>Decole a sua carreira!</h1>
                     <h2>Embarque no mercado de trabalho com maestria.</h2>
                 </div>
+                
             </div>
         `;
     }

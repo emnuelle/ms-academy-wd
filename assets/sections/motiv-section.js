@@ -1,6 +1,7 @@
 import { LitElement, html, css } from 'lit';
 import { section } from '../styles/section-style';
 
+// Nome Motiv = "Motivacional" essa sessão é uma peça chave no design da página
 export class MotivSection extends LitElement {
     static styles = [
         section, 

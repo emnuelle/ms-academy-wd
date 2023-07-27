@@ -18,9 +18,9 @@ export class Titulo extends LitElement {
 
     render() {
         return html`
-        <slot>
-        Título
-        </slot>
+            <slot>
+            Título
+            </slot>
         `;
     }
 }

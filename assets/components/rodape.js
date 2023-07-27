@@ -58,21 +58,21 @@ export class Rodape extends LitElement {
 
     render() {
         return html`
-        <footer>
-            <app-logo>
+            <footer>
+                <app-logo>
 
-            </app-logo>
-            <nav>
-                <a href="-">Home</a>
-                <a href="">Serviços</a>
-                <a href="">Sobre nós</a>
-                <a href="">FeedBacks</a>
-                <a href="">Contato</a>
-            </nav>
-        </footer>
-        <span>
-            © M.S. Academy - Todos os direitos reservados desde 2020.
-        </span>
+                </app-logo>
+                <nav>
+                    <a href="-">Home</a>
+                    <a href="">Serviços</a>
+                    <a href="">Sobre nós</a>
+                    <a href="">FeedBacks</a>
+                    <a href="">Contato</a>
+                </nav>
+            </footer>
+            <span>
+                © M.S. Academy - Todos os direitos reservados desde 2020.
+            </span>
         `;
     }
 }

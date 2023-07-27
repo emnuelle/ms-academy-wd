@@ -1,13 +1,13 @@
 import { LitElement, html, css } from 'lit';
 import { section } from '../styles/section-style';
 
+// Apresentando os serviços para quem está utilizando o site
 export class ServicosSection extends LitElement {
     static styles = [
         section,
         css`
             :host {
                 display: flex;
-                display: inline-flex;
                 flex-direction: column;
                 flex-wrap: nowrap;
                 justify-content: flex-start;
@@ -64,6 +64,16 @@ export class ServicosSection extends LitElement {
                 line-height: normal;
             }
 
+            @media (min-width: 1024px){
+                section {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 50px;
+                }
+            }
+
         `
     ];
 
@@ -71,7 +81,8 @@ export class ServicosSection extends LitElement {
         return html`
 
         <app-quadro-escrito>
-            <slot nome="titulo">Serviços</slot>
+            <span>Serviços</span>
+            <span slot="subtitulo">São diversos para te auxiliar a embarcar no mercado de trabalho com maestria.</span>
         </app-quadro-escrito>
 
         <section>

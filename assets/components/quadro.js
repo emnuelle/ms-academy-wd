@@ -5,8 +5,8 @@ export class Quadro extends LitElement {
         css`
             :host {
                 display: flex;
-                width: 334px;
-                height: 260px;
+                width: 100%;
+                height: 500px;
                 justify-content: center;
                 align-items: center;
 
