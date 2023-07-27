@@ -1,51 +1,59 @@
 import { LitElement, html, css } from 'lit';
+import { nav } from '../../main';
 
 export class Navbar extends LitElement {
     static styles = [
         css`
-        :host {
-            display: flex;
-            background: var(--tom-3);
-            height: 5.625rem;
-            align-items: center;
-            justify-content: space-between;
+            :host {
+                width: 100%;
+                box-sizing: border-box;
+                
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 2rem;
 
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            width: 100%;
+                color: var(--tom-3);
+
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 100;
+                color: white;
+                transition: top 1s;
+
+                pointer-events: none;
             }
 
-        app-logo {
-            margin-left: auto;
-            margin-right: auto;
-            width: 4rem; /* Ajuste o tamanho conforme necessário */
-            height: 4rem; /* Ajuste o tamanho conforme necessário */
-        }
+            app-logo{
+                margin-left: auto;
+                margin-right: auto;
+                width: 4rem; 
+                height: 4rem; 
+                background-color: var(--tom-3);
+            }
 
-        svg{
-            margin-right: auto;
-            margin-left: auto;
-            position: absolute;
-            right: 32px;
-        }
+            feather-icon {
+                cursor: pointer;
+                pointer-events: auto;
+            }
+
+            @media (min-width: 768px) {
+                app-logo {
+                    width: 96px;
+                    height: 96px;
+                }
+            }
 
         `
     ];
 
+
     render() {
         return html`
-        
-        <app-logo> </app-logo>
+        <app-logo></app-logo>
 
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-        <path d="M21 10H3" stroke="#042036" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M21 6H3" stroke="#042036" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M21 14H3" stroke="#042036" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M21 18H3" stroke="#042036" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-
+        <feather-icon icon="menu" @click=${nav.abrir}></feather-icon>
         `;
     }
 }

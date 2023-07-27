@@ -30,9 +30,7 @@ export class HomePage extends LitElement {
 
             <social-section></social-section>
 
-            <app-rodape></app-rodape>
-
         `;
     }
 }
-customElements.define('app-home-page', HomePage);
+customElements.define('home-page', HomePage);
