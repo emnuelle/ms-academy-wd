@@ -73,7 +73,7 @@ export class HeroSection extends LitElement {
             
             <div class="container">
                 <app-quadro>
-                    <img src="../../public/img3.png">
+                    <img src="img3.png">
                 </app-quadro>
                 <div class="img-txt">
                     <h1>Decole a sua carreira!</h1>

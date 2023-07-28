@@ -64,26 +64,26 @@ export class SocialSection extends LitElement {
 
                 <app-botao>
                     <a>
-                        <img src="../../public/insta-icon.svg" alt="Icon Instagram">
+                        <img src="insta-icon.svg" alt="Icon Instagram">
                         <p>@mentoriaparavoar</p>
                     </a>
                 </app-botao>
 
                 <app-botao>
                     <a>
-                        <img src="../../public/insta-icon.svg" alt="Icon Instagram">
+                        <img src="insta-icon.svg" alt="Icon Instagram">
                         <p>@mentoriaparavoar</p>
                     </a>
                 </app-botao>
 
                 <app-botao>
                     <a>
-                        <img src="../../public/insta-icon.svg" alt="Icon Instagram">
+                        <img src="insta-icon.svg" alt="Icon Instagram">
                         <p>@mentoriaparavoar</p>
                     </a>
                 </app-botao>
 
-                <img src="../../public/plane-icon.svg" alt="img4">
+                <img src="plane-icon.svg" alt="img4">
 
             </div>
             

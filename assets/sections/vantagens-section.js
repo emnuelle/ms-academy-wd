@@ -51,7 +51,7 @@ export class VantagensSection extends LitElement {
 
         <section>
             <div class="arg-1">
-                <img src="../../public/star.svg" alt="icone-estrela">
+                <img src="star.svg" alt="icone-estrela">
                 <app-titulo>Orientação especializada</app-titulo>
                 <app-paragrafo>
                     A orientação ajuda os candidatos a se prepararem adequadamente, compreendendo as habilidades e competências mais valorizadas pelos recrutadores.
@@ -59,7 +59,7 @@ export class VantagensSection extends LitElement {
             </div>
 
             <div class="arg-2">
-                <img src="../../public/thumbs-up.svg" alt="icone-like">
+                <img src="thumbs-up.svg" alt="icone-like">
                 <app-titulo>Feedback e análise personalizada</app-titulo>
                 <app-paragrafo>
                     O candidato recebe feedback e análises personalizadas sobre seu desempenho durante o processo seletivo. Isso inclui avaliação de currículo, simulação de entrevistas, avaliação de habilidades técnicas e comportamentais, entre outros aspectos relevantes para a seleção.
@@ -67,7 +67,7 @@ export class VantagensSection extends LitElement {
             </div>
 
             <div class="arg-3">
-                <img src="../../public/trending-up.svg" alt="icone-trend">
+                <img src="trending-up.svg" alt="icone-trend">
                 <app-titulo>Preparação abrangente</app-titulo>
                 <app-paragrafo>
                     Treinamentos, workshops, materiais de estudo, dicas de estudo e acesso a recursos exclusivos que podem ser essenciais para o sucesso na seleção.

@@ -50,7 +50,7 @@ export class MotivSection extends LitElement {
     render() {
         return html`
         <div class="container">
-                <img src="../../public/img2.png" alt="decole a sua carreira">
+                <img src="img2.png" alt="decole a sua carreira">
                 <div class="img-txt">
                     <h1>#Quem <br>Se <br>Prepara <br>Sai <br>Na <br>Frente </h1>
                 </div>
