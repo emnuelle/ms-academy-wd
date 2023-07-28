@@ -123,7 +123,7 @@ export class AlunosSection extends LitElement {
 
         <div class="ns-alunos">
 
-        <h1>Nossos Alunos</h1>
+            <h1>Nossos Alunos</h1>
 
             <div class="aluno1">
                 
