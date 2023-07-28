@@ -8,7 +8,7 @@ export class AlunosSection extends LitElement {
         css`
             :host {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 flex-wrap: wrap;
                 align-items: center;
 
@@ -90,6 +90,16 @@ export class AlunosSection extends LitElement {
                 flex-direction: center;
             }
 
+            @media (min-width: 760px){
+                :host {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 100px;
+                }
+            }
+
             @media (min-width: 1024px){
                 :host {
                     display: flex;
@@ -142,7 +152,7 @@ export class AlunosSection extends LitElement {
             </div>
 
             <app-botao>
-                <a src="">
+                <a src="" title="ver-mais/alunos">
                     Ver Mais
                 </a>
             </app-botao>

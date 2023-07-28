@@ -10,8 +10,9 @@ export class VantagensSection extends LitElement {
                 display: flex;
                 display: inline-flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: space-between;
                 align-items: center;
+                flex-wrap: nowrap;
 
                 top: 0;
                 left: 0;
@@ -24,6 +25,14 @@ export class VantagensSection extends LitElement {
                 gap: 3.625rem;
             }
 
+            section {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 100px;
+            }
+
             img {
                 width: 1.5rem;
             }
@@ -34,13 +43,45 @@ export class VantagensSection extends LitElement {
                 font-weight: 700;
             }
 
+
+            app-quadro {
+                width: 100%;
+                height: 100px;
+                box-sizing: border-box;
+                
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+
+                color: var(--tom-3);
+
+                top: 0;
+                left: 0;
+                color: white;
+
+                padding: 50px;
+            }
+
+
+            @media (min-width: 760px){
+                section {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    gap: 100px;
+                }
+            }
+
             @media (min-width: 1024px){
                 section {
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column;
                     justify-content: center;
                     align-items: center;
                     gap: 100px;
+                    
                 }
             }
         `
@@ -74,6 +115,7 @@ export class VantagensSection extends LitElement {
                 </app-paragrafo>
             </div>
         </section>
+
 
         `;
     }

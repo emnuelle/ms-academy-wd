@@ -67,9 +67,9 @@ export class ServicosSection extends LitElement {
             @media (min-width: 1024px){
                 section {
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column;
                     justify-content: center;
-                    align-items: center;
+                    align-items: flex-end;
                     gap: 50px;
                 }
             }

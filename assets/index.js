@@ -11,7 +11,6 @@ export * from './components/rodape'
 // Seções
 export * from './sections/hero-section'
 export * from './sections/vantagens-section'
-export * from './sections/motiv-section'
 export * from './sections/servicos-section'
 export * from './sections/alunos-section'
 export * from './sections/social-section'

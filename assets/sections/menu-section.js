@@ -123,7 +123,7 @@ export class MenuSection extends LitElement {
 
           <a @click=${nav.fechar}  href="/">Home</a>
 
-          <button @click=${nav.fechar} >
+          <button @click=${nav.fechar} title="fechar menu">
             <feather-icon icon="x"></feather-icon>
           </button>
 

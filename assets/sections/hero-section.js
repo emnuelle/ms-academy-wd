@@ -8,9 +8,9 @@ export class HeroSection extends LitElement {
         css`
             :host {
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 flex-wrap: wrap;
-
+                justify-content: space-around;
                 align-items: center;
 
                 padding: 0;
@@ -32,9 +32,10 @@ export class HeroSection extends LitElement {
             }
 
             .img-txt {
-                color: var(--tom-3);
+                color: var(--tom-5);
                 font-family: var(--fonte-texto);
             }
+
 
             h1 {
                 position: absolute;
@@ -58,10 +59,10 @@ export class HeroSection extends LitElement {
                 line-height: normal;
             }
 
-            @media (min-width: 520px){
+            @media (min-width: 760px){
                 app-quadro {
-                    width: 900px;
-                    height: 500px;
+                    width: 800px;
+                    height: 400px;
                 }
             }
         `
@@ -70,7 +71,6 @@ export class HeroSection extends LitElement {
     render() {
         return html`
 
-            
             <div class="container">
                 <app-quadro>
                     <img src="img3.png">
@@ -81,9 +81,9 @@ export class HeroSection extends LitElement {
                 </div>
                 
             </div>
+
         `;
     }
 }
 
 customElements.define('hero-section', HeroSection);
-

@@ -10,8 +10,6 @@ export class HomePage extends LitElement {
 
             <vantagens-section></vantagens-section>
 
-            <motiv-section></motiv-section>
-
             <servicos-section></servicos-section>
 
             <alunos-section></alunos-section>
