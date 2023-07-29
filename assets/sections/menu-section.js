@@ -97,13 +97,13 @@ export class MenuSection extends LitElement {
     `,
   ];
 
-  rolarContato() {
-    return nav.rolarPara('#contato')
-  }
+  // rolarContato() {
+  //   return nav.rolarPara('#contato')
+  // }
 
-  rolarUnidades() {
-      return nav.rolarPara('#unidades')
-  }
+  // rolarUnidades() {
+  //     return nav.rolarPara('#unidades')
+  // }
 
   render() {
     return html`
@@ -113,11 +113,11 @@ export class MenuSection extends LitElement {
 
         <nav>
 
-          <button @click=${this.rolarUnidades}>Serviços</button>
+          <button @click=${nav.fechar} href="/servicos-page.js">Serviços</button>
 
-          <button @click=${this.rolarContato}>Contato</button>
+          <!-- <button @click=${this.rolarContato}>Contato</button>
 
-          <a @click=${nav.fechar} href="servicos">Sobre</a>
+          <a>Sobre</a> -->
 
           <a @click=${nav.fechar} href="/feedback-page">Feedbacks</a>
 

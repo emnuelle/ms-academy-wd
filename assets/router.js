@@ -14,6 +14,11 @@ export function initRouter() {
             component: "feedback-page",
             action: () => import("./pages/feedback-page") 
         },
+        {
+            path:"/servicos-page",
+            component: "servicos-page",
+            action: () => import("./pages/servicos-page") 
+        },
     ])
     
     

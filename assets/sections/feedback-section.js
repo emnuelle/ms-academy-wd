@@ -128,7 +128,7 @@ export class FeedbackSection extends LitElement {
     render() {
         return html`
 
-         <app-quadro-escrito>
+        <app-quadro-escrito>
 
         <span>Feedbacks</span>
 
