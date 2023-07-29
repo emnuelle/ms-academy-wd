@@ -41,8 +41,8 @@ export class Servicos2Section extends LitElement {
             }
 
             .img1 ,.img2 , .img3 {
-                width: 100svw;
-                height: 300px;
+                width: 100%;
+                height: 100%;
             }
 
             swiper-container {
@@ -179,7 +179,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href="https://pay.kiwify.com.br/qyNlHkR">
 
-                                <img  loading="lazy" class="img1" src="ebook1.webp" alt="e-book-1"/>
+                                <img  loading="lazy" class="img1" src="ebook1.png" alt="e-book-1"/>
 
                             </a>
 
@@ -198,7 +198,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href="https://pay.kiwify.com.br/yviqmns">
 
-                                <img  loading="lazy" class="img2" src="ebook2.webp" alt="e-book-1"/>
+                                <img  loading="lazy" class="img2" src="ebook2.png" alt="e-book-1"/>
 
                             </a>
 
@@ -217,7 +217,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href="https://pay.kiwify.com.br/LT8ix0O">
 
-                                <img  loading="lazy" class="img3" src="ebook1.webp" alt="e-book-1"/>
+                                <img  loading="lazy" class="img3" src="ebook1.png" alt="e-book-1"/>
 
                             </a>
 
@@ -234,6 +234,10 @@ export class Servicos2Section extends LitElement {
 
             </div>
 
+            
+
+
+            
 
         </section>
 
