@@ -63,7 +63,7 @@ export class Rodape extends LitElement {
 
                 </app-logo>
                 <nav>
-                    <a href="-">Home</a>
+                    <a href="/">Home</a>
                     <a href="">Serviços</a>
                     <a href="">Sobre nós</a>
                     <a href="">FeedBacks</a>

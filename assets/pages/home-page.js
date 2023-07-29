@@ -6,7 +6,7 @@ export class HomePage extends LitElement {
     render() {
         return html`
 
-            <!-- <hero-section></hero-section>
+            <hero-section></hero-section>
 
             <vantagens-section></vantagens-section>
 
@@ -14,10 +14,8 @@ export class HomePage extends LitElement {
 
             <alunos-section></alunos-section>
 
-            <social-section></social-section> -->
+            <social-section></social-section>
             
-            <hero-feedback-section></Hero-Feedback-Section>
-
         `;
     }
 }

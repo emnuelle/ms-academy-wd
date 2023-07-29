@@ -1,22 +1,13 @@
 import { LitElement, html, css } from 'lit';
-import { section } from '../styles/section-style';
 
-export class HomePage extends LitElement {
-    static styles = [
-        section,
-        css`
-            :host {
-                display: block;
-            }
-
-
-        `
-    ];
+export class FeedbackPage extends LitElement {
 
     render() {
         return html`
 
+            <feedback-section></feedback-Section>
+            
         `;
     }
 }
-customElements.define('feedback-page', HomePage);
+customElements.define('feedback-page', FeedbackPage);

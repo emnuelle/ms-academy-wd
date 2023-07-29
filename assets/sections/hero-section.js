@@ -13,12 +13,13 @@ export class HeroSection extends LitElement {
                 justify-content: space-around;
                 align-items: center;
 
-                padding: 0;
+                padding: 0 0 12rem 0;
 
-                top: 0;
+                top: 10rem;
                 left: 0;
                 right: 0;
                 width: 100%;
+
             }
 
             .container {
