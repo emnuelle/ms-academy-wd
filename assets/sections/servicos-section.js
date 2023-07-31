@@ -9,15 +9,14 @@ export class ServicosSection extends LitElement {
             :host {
                 display: flex;
                 flex-direction: column;
-                flex-wrap: nowrap;
-                justify-content: flex-start;
+                flex-wrap: wrap;
+                justify-content: center;
                 align-items: center;
-                align-content: flex-start;
                 gap: 53px;
 
-                padding: 0;
+                padding: 0 0 12rem 0;
 
-                top: 0;
+                top: 10rem;
                 left: 0;
                 right: 0;
                 width: 100%;

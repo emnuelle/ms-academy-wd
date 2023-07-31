@@ -368,7 +368,39 @@ export class Servicos2Section extends LitElement {
 
             </div>
 
+            <div class="arg-3">
+                
+                <img src="users.svg" alt="icone-like">
+                <app-titulo>Turmas</app-titulo>
+                <app-paragrafo>
+                 Dinamica de grupo, Aviação 2.0.
+                </app-paragrafo>
+                
 
+                <swiper-container>
+                <swiper-slide>
+                        <app-caixa-quadro>
+                            <a slot="imagem"
+                            target="_blank" 
+                            href="https://www.instagram.com/mentoriaparavoar">
+
+                                <img  loading="lazy" class="img" src="coming-soon.png" alt="serviço-4"/>
+
+                            </a>
+
+                            <h2 slot="titulo">
+                                <!-- Aviação 2.0 -->
+                            </h2>
+
+                            <h3 slot="subtitulo"> 
+                            Aviação 2.0 <br> Em breve!
+                            </h3>
+
+                        </app-caixa-quadro>
+                    </swiper-slide>
+                </swiper-container>
+
+            </div>
             
 
         </section>
