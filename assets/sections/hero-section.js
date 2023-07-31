@@ -10,7 +10,7 @@ export class HeroSection extends LitElement {
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
-                justify-content: space-around;
+                justify-content: center;
                 align-items: center;
 
                 padding: 0 0 12rem 0;
@@ -28,13 +28,15 @@ export class HeroSection extends LitElement {
             }
 
             app-quadro {
-                width: 400px;
+                width: 380px;
                 height: 700px;
             }
 
             .img-txt {
                 color: var(--tom-5);
                 font-family: var(--fonte-texto);
+
+                z-index: 20;
             }
 
 

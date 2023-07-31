@@ -9,7 +9,7 @@ export class VantagensSection extends LitElement {
             :host {
                 display: flex;
                 display: inline-flex;
-                flex-direction: column;
+                flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
                 flex-wrap: nowrap;

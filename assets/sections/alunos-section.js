@@ -152,7 +152,7 @@ export class AlunosSection extends LitElement {
             </div>
 
             <app-botao>
-                <a src="" title="ver-mais/alunos">
+                <a href="feedback-page" title="ver-mais/alunos">
                     Ver Mais
                 </a>
             </app-botao>

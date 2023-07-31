@@ -3,7 +3,7 @@ import { css } from "lit";
 export const section = css`
     :host {
         width: 100%;
-        height: auto;
+        height: 50rem;
 
         display: flex;
         box-sizing: border-box; 
@@ -12,7 +12,7 @@ export const section = css`
         align-items: center;
         gap: 4.375rem;
 
-        padding: 2rem; 
+        padding: 1rem; 
         overflow: hidden;
         position: relative;
         }

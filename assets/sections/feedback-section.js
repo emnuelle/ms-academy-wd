@@ -13,12 +13,13 @@ export class FeedbackSection extends LitElement {
                 align-content: center;
                 gap: 53px;
 
-                padding: 0 0 12rem 0;
+                padding: 0 0 14rem 0;
 
                 top: 10rem;
                 left: 0;
                 right: 0;
                 width: 100%;
+                height: auto;
             }
 
             app-quadro {
