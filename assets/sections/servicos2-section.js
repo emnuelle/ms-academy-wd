@@ -191,7 +191,9 @@ export class Servicos2Section extends LitElement {
 
                             </a>
 
-                            <h2 slot="titulo"></h2>
+                            <h2 slot="titulo">
+                                <!-- E-book / Guia Completo do currículo impecável -->
+                            </h2>
 
                             <h3 slot="subtitulo"> 
                                 O Guia Completo Currículo Impecável é um e-book para futuros comissários que desejam criar um currículo chamativo e impecável para os processos seletivos da Aviação no Brasil.
@@ -210,7 +212,9 @@ export class Servicos2Section extends LitElement {
 
                             </a>
 
-                            <h2 slot="titulo"></h2>
+                            <h2 slot="titulo">
+                                <!-- E-book / English With Mary -->
+                            </h2>
 
                             <h3 slot="subtitulo"> 
                                 O E-book "English With Mary" possui 10 capítulos com exercícios para destravar e aperfeiçoar o inglês, especialmente para o Processo Seletivo de companhias aéreas.
@@ -225,11 +229,13 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href="https://pay.kiwify.com.br/LT8ix0O">
 
-                                <img  loading="lazy" class="img" src="ebook1.png" alt="e-book-1"/>
+                                <img  loading="lazy" class="img" src="ebook3.png" alt="e-book-1"/>
 
                             </a>
 
-                            <h2 slot="titulo"></h2>
+                            <h2 slot="titulo">
+                                <!-- e-book / Processo seletivo na prática -->
+                            </h2>
 
                             <h3 slot="subtitulo"> 
                             Nele, você encontrará um CHECKLIST simples e prático, abrangendo tudo o que você precisa estudar e organizar para o processo seletivo. Lembre-se: a oportunidade surge quando estamos preparados.
@@ -262,7 +268,9 @@ export class Servicos2Section extends LitElement {
 
                             </a>
 
-                            <h2 slot="titulo"></h2>
+                            <h2 slot="titulo">
+                                <!-- Análise de currículo -->
+                            </h2>
 
                             <h3 slot="subtitulo"> 
                                 Analiso todo o seu currículo por vídeo chamada pelo
@@ -280,14 +288,23 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href=${`https://wa.me/${numeroWhatsapp}?text=${this.mensagemWhatsapp()}`}>
 
-                                <img  loading="lazy" class="img" src="ebook1.png" alt="e-book-1"/>
+                                <img  loading="lazy" class="img" src="serv2.png" alt="serviço-2"/>
 
                             </a>
 
-                            <h2 slot="titulo"></h2>
+                            <h2 slot="titulo">
+                                <!-- Simulação de entrevista -->
+                            </h2>
 
                             <h3 slot="subtitulo"> 
-                            Nele, você encontrará um CHECKLIST simples e prático, abrangendo tudo o que você precisa estudar e organizar para o processo seletivo. Lembre-se: a oportunidade surge quando estamos preparados.
+                            Na simulação de entrevista, faço uma chamada de
+                            vídeo com você para analisar sua desenvoltura,
+                            apresentação pessoal e respostas. A intenção não é
+                            fazer você decorar respostas prontas, mas sim, usar
+                            sua experiência e trajetória ao seu favor de forma
+                            estratégica. <br>
+                            <strong> Dura, em média, 1h30. </strong>
+
                             </h3>
 
                         </app-caixa-quadro>
@@ -299,14 +316,21 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href=${`https://wa.me/${numeroWhatsapp}?text=${this.mensagemWhatsapp()}`}>
 
-                                <img  loading="lazy" class="img" src="ebook1.png" alt="e-book-1"/>
+                                <img  loading="lazy" class="img" src="serv3.png" alt="serviço-3"/>
 
                             </a>
 
-                            <h2 slot="titulo"></h2>
+                            <h2 slot="titulo">
+                                <!-- Consultoria de Carreira -->
+                            </h2>
 
                             <h3 slot="subtitulo"> 
-                            Nele, você encontrará um CHECKLIST simples e prático, abrangendo tudo o que você precisa estudar e organizar para o processo seletivo. Lembre-se: a oportunidade surge quando estamos preparados.
+                                Na Consultoria de Carreira eu direciono você
+                                pontualmente nas dúvidas e inseguranças que você
+                                tiver em relação à carreira na aviação.
+                                <strong> Dura, em média, 1h30 e a sessão fica
+                                gravada para consulta. </strong>
+
                             </h3>
 
                         </app-caixa-quadro>
@@ -318,14 +342,23 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href=${`https://wa.me/${numeroWhatsapp}?text=${this.mensagemWhatsapp()}`}>
 
-                                <img  loading="lazy" class="img" src="ebook1.png" alt="e-book-1"/>
+                                <img  loading="lazy" class="img" src="serv4.png" alt="serviço-4"/>
 
                             </a>
 
-                            <h2 slot="titulo"></h2>
+                            <h2 slot="titulo">
+                                <!-- Mentoria Individual -->
+                            </h2>
 
                             <h3 slot="subtitulo"> 
-                            Nele, você encontrará um CHECKLIST simples e prático, abrangendo tudo o que você precisa estudar e organizar para o processo seletivo. Lembre-se: a oportunidade surge quando estamos preparados.
+                            Processo de 6 encontros individuais de 1h30
+                            baseados em três pilares; <br>
+                            <strong>Desenvolvimento Pessoal:</strong><br>
+                            Autoconhecimento & Marketing Pessoal <br>
+                            <strong>Apresentação Pessoal:</strong><br>
+                            Imagem, Comportamento & Comunicação <br>
+                            <strong>Processos Seletivos:</strong><br>
+                            Aspectos da Profissão e Fases do Processo
                             </h3>
 
                         </app-caixa-quadro>
