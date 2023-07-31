@@ -121,6 +121,8 @@ export class MenuSection extends LitElement {
 
           <a @click=${nav.fechar} href="feedback-page">Feedbacks</a>
 
+          <a @click=${nav.fechar} href="sobre-nos-page">Sobre Nós</a>
+
           <a @click=${nav.fechar}  href="/">Home</a>
 
           <button @click=${nav.fechar} title="fechar menu">

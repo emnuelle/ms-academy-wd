@@ -19,6 +19,11 @@ export function initRouter() {
             component: "servicos-page",
             action: () => import("./pages/servicos-page") 
         },
+        {
+            path:"/sobre-nos-page",
+            component: "sobre-nos-page",
+            action: () => import("./pages/sobre-nos-page") 
+        },
     ])
     
     
