@@ -40,7 +40,7 @@ export class Servicos2Section extends LitElement {
 
             }
 
-            .img1 ,.img2 , .img3 {
+            .img {
                 width: 100%;
                 height: 100%;
             }
@@ -132,14 +132,14 @@ export class Servicos2Section extends LitElement {
             rewind: true,
             breakpoints: {
                 768: {
-                    spaceBetween: -275,
+                    spaceBetween: -400,
                 },
                 1024: {
-                    spaceBetween: -575,
+                    spaceBetween: -700,
                 },
                 1368: {
                     spaceBetween: 0,
-                    slidesPerView: 3,
+                    slidesPerView: 4,
                     
                 },
             }
@@ -148,7 +148,15 @@ export class Servicos2Section extends LitElement {
         swiper.initialize()
     }
 
+    mensagemWhatsapp() {
+        let mensagem = "Olá, gostaria de contrar um serviço!"
+        return encodeURIComponent(mensagem)
+    }
+
     render() {
+
+        const numeroWhatsapp = "5511940725035"
+
         return html`
 
         <app-quadro-escrito>
@@ -179,7 +187,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href="https://pay.kiwify.com.br/qyNlHkR">
 
-                                <img  loading="lazy" class="img1" src="ebook1.png" alt="e-book-1"/>
+                                <img  loading="lazy" class="img" src="ebook1.png" alt="e-book-1"/>
 
                             </a>
 
@@ -198,7 +206,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href="https://pay.kiwify.com.br/yviqmns">
 
-                                <img  loading="lazy" class="img2" src="ebook2.png" alt="e-book-1"/>
+                                <img  loading="lazy" class="img" src="ebook2.png" alt="e-book-1"/>
 
                             </a>
 
@@ -217,7 +225,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href="https://pay.kiwify.com.br/LT8ix0O">
 
-                                <img  loading="lazy" class="img3" src="ebook1.png" alt="e-book-1"/>
+                                <img  loading="lazy" class="img" src="ebook1.png" alt="e-book-1"/>
 
                             </a>
 
@@ -234,7 +242,98 @@ export class Servicos2Section extends LitElement {
 
             </div>
 
-            
+            <div class="arg-2">
+                <img src="flag.svg" alt="icone-like">
+                <app-titulo>Serviços</app-titulo>
+                <app-paragrafo>
+                    Receba consultorias personalizadas
+                </app-paragrafo>
+
+                <swiper-container>
+                <!-- init="false"-->
+
+                    <swiper-slide>
+                        <app-caixa-quadro>
+                            <a slot="imagem"
+                            target="_blank" 
+                            href=${`https://wa.me/${numeroWhatsapp}?text=${this.mensagemWhatsapp()}`}>
+
+                                <img  loading="lazy" class="img" src="serv1.png" alt="serviço-1"/>
+
+                            </a>
+
+                            <h2 slot="titulo"></h2>
+
+                            <h3 slot="subtitulo"> 
+                                Analiso todo o seu currículo por vídeo chamada pelo
+                                Google Meet e todas as mudanças são
+                                documentadas para você consultar quando quiser
+                                ou precisar.
+                            </h3>
+
+                        </app-caixa-quadro>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <app-caixa-quadro>
+                            <a slot="imagem"
+                            target="_blank" 
+                            href=${`https://wa.me/${numeroWhatsapp}?text=${this.mensagemWhatsapp()}`}>
+
+                                <img  loading="lazy" class="img" src="ebook1.png" alt="e-book-1"/>
+
+                            </a>
+
+                            <h2 slot="titulo"></h2>
+
+                            <h3 slot="subtitulo"> 
+                            Nele, você encontrará um CHECKLIST simples e prático, abrangendo tudo o que você precisa estudar e organizar para o processo seletivo. Lembre-se: a oportunidade surge quando estamos preparados.
+                            </h3>
+
+                        </app-caixa-quadro>
+                    </swiper-slide>
+                    
+                    <swiper-slide>
+                        <app-caixa-quadro>
+                            <a slot="imagem"
+                            target="_blank" 
+                            href=${`https://wa.me/${numeroWhatsapp}?text=${this.mensagemWhatsapp()}`}>
+
+                                <img  loading="lazy" class="img" src="ebook1.png" alt="e-book-1"/>
+
+                            </a>
+
+                            <h2 slot="titulo"></h2>
+
+                            <h3 slot="subtitulo"> 
+                            Nele, você encontrará um CHECKLIST simples e prático, abrangendo tudo o que você precisa estudar e organizar para o processo seletivo. Lembre-se: a oportunidade surge quando estamos preparados.
+                            </h3>
+
+                        </app-caixa-quadro>
+                    </swiper-slide>
+
+                    <swiper-slide>
+                        <app-caixa-quadro>
+                            <a slot="imagem"
+                            target="_blank" 
+                            href=${`https://wa.me/${numeroWhatsapp}?text=${this.mensagemWhatsapp()}`}>
+
+                                <img  loading="lazy" class="img" src="ebook1.png" alt="e-book-1"/>
+
+                            </a>
+
+                            <h2 slot="titulo"></h2>
+
+                            <h3 slot="subtitulo"> 
+                            Nele, você encontrará um CHECKLIST simples e prático, abrangendo tudo o que você precisa estudar e organizar para o processo seletivo. Lembre-se: a oportunidade surge quando estamos preparados.
+                            </h3>
+
+                        </app-caixa-quadro>
+                    </swiper-slide>
+
+                </swiper-container>
+
+            </div>
 
 
             
