@@ -117,6 +117,26 @@ export class SobreNosSection extends LitElement {
             Foi a minha maior herança!
         </p>
 
+        <h2>
+            O resumo de tudo isso aqui, é só uma coisa: <br>
+            Só você sabe o que passou para chegar onde está.  <br>
+            Só você sabe todo o caminho que trilhou.  <br>
+            Só você entende o quanto seu sonho significa pra você!  <br>
+            portanto, não deixe de acreditar em quem você é! <br>
+            Não deixe que ninguçem nesse mundo desmereça a sua história até aqui  <br>
+            Não de ouvidos a voz do cansaço,  <br>
+            <strong> Não existe ninguém no mundo como você! </strong>
+        </h2>
+
+        <app-quadro>
+            <img src="sobre-nos7.png">
+        </app-quadro>
+
+        <p>
+            Passei por várias mudanças, e o engraçado é que o amor pela aviação se manteve firme. <br>
+            Foi a minha maior herança!
+        </p>
+
         `;
     }
 }
