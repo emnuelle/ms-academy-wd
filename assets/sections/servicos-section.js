@@ -35,6 +35,8 @@ export class ServicosSection extends LitElement {
             div {
                 text-align: center;
                 gap: 50px;
+
+                text-decoration: none;
             }
 
             img {
@@ -50,6 +52,8 @@ export class ServicosSection extends LitElement {
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
+
+                text-decoration: none;
             }
 
             app-paragrafo {
@@ -62,6 +66,8 @@ export class ServicosSection extends LitElement {
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
+
+                text-decoration: none;
             }
 
             @media (min-width: 1024px){
@@ -88,27 +94,33 @@ export class ServicosSection extends LitElement {
         <section>
 
             <div class="arg-1">
-                <img src="book-open.svg" alt="icone-like">
-                <app-titulo>E-books</app-titulo>
-                <app-paragrafo>
-                    Tenha acesso ao conteúdo de imediato.
-                </app-paragrafo>
+                <a href="servicos-page">
+                    <img src="book-open.svg" alt="icone-like">
+                    <app-titulo>E-books</app-titulo>
+                    <app-paragrafo>
+                        Tenha acesso ao conteúdo de imediato.
+                    </app-paragrafo>
+                </a>
             </div>
 
             <div class="arg-2">
-                <img src="flag.svg" alt="icone-like">
-                <app-titulo>Serviços</app-titulo>
-                <app-paragrafo>
-                    Receba consultorias personalizadas
-                </app-paragrafo>
+                <a href="servicos-page">
+                    <img src="flag.svg" alt="icone-like">
+                    <app-titulo>Serviços</app-titulo>
+                    <app-paragrafo>
+                        Receba consultorias personalizadas
+                    </app-paragrafo>
+                </a>
             </div>
 
             <div class="arg-3">
-                <img src="users.svg" alt="icone-like">
-                <app-titulo>Turmas</app-titulo>
-                <app-paragrafo>
-                    Dinamica de grupo, Aviação 2.0.
-                </app-paragrafo>
+                <a href="servicos-page">
+                    <img src="users.svg" alt="icone-like">
+                    <app-titulo>Turmas</app-titulo>
+                    <app-paragrafo>
+                        Dinamica de grupo, Aviação 2.0.
+                    </app-paragrafo>
+                </a>
             </div>
 
         </section>
