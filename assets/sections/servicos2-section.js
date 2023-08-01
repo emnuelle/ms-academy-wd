@@ -1,9 +1,11 @@
 import { LitElement, html, css } from 'lit';
 import { section } from '../styles/section-style';
 
+
+
 export class Servicos2Section extends LitElement {
     static styles = [
-        section,
+        section, 
         css`
             :host {
                 display: flex;
@@ -99,10 +101,6 @@ export class Servicos2Section extends LitElement {
                 line-height: normal;
             }
 
-            .swiper-slide-active {
-                transform: scale(1.1);
-            }
-
             @media (min-width: 760px){
                 
                 app-paragrafo {
@@ -123,12 +121,14 @@ export class Servicos2Section extends LitElement {
         `
     ];
 
+    // Função firstUpdated
     firstUpdated() {
-        const swiper = this.renderRoot.querySelector('swiper-container')
+        // Selecionar os elementos com a classe "swiper-container"
+        const sliders = this.renderRoot.querySelectorAll('.swiper-container');
 
-        console.log(swiper)
+        console.log(sliders)
 
-        Object.assign(swiper, {
+        Object.assign(sliders, {
             spaceBetween: -75,
             initialSlide: 1,
             rewind: true,
@@ -138,17 +138,25 @@ export class Servicos2Section extends LitElement {
                 },
                 1024: {
                     spaceBetween: -700,
+                    slidesPerView: 3,
                 },
                 1368: {
                     spaceBetween: 0,
-                    slidesPerView: 4,
+                    slidesPerView: 3,
                     
                 },
             }
         })
+
+        // Inicializar o swiper para cada um dos sliders
+        sliders.forEach(sliders => {
+            initializeSwiper(sliders);
+        });
+
         
-        swiper.initialize()
     }
+
+
 
     mensagemWhatsapp() {
         let mensagem = "Olá, gostaria de contrar um serviço!"
@@ -180,8 +188,7 @@ export class Servicos2Section extends LitElement {
                     Tenha acesso ao conteúdo de imediato.
                 </app-paragrafo>
 
-                <swiper-container 
-                init="false">
+                <swiper-container class="slider1">
 
                     <swiper-slide>
                         <app-caixa-quadro>
@@ -257,8 +264,8 @@ export class Servicos2Section extends LitElement {
                     Receba consultorias personalizadas
                 </app-paragrafo>
 
-                <swiper-container>
-                <!-- init="false"-->
+                <swiper-container class="slider2">
+                
 
                     <swiper-slide>
                         <app-caixa-quadro>
@@ -379,8 +386,11 @@ export class Servicos2Section extends LitElement {
                 </app-paragrafo>
                 
 
-                <swiper-container>
-                <swiper-slide>
+                <swiper-container class="slider3">
+                
+                
+                
+                    <swiper-slide>
                         <app-caixa-quadro>
                             <a slot="imagem"
                             target="_blank" 

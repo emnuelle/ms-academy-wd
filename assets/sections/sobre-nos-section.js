@@ -33,7 +33,7 @@ export class SobreNosSection extends LitElement {
                 flex-direction: row-reverse;
             }
 
-            .sobre2 {
+            .sobre2, .sobre4, .sobre6 {
                 flex-direction: row;
             }
 
@@ -64,7 +64,7 @@ export class SobreNosSection extends LitElement {
                 font-style: normal;
                 line-height: normal;
 
-                padding: 0.5rem;
+                margin: 0;
             }
         `
     ];
@@ -125,11 +125,59 @@ export class SobreNosSection extends LitElement {
                     E apesar de estar sempre voando, ela nunca, NUNCA FOI AUSENTE.
                     O esforço e dedicação pela família eram nítidos, tanto quanto a paixão em estar ali! <br>
                     Ela venceu a prória personalidade por amor. Era tão tímida, que muita gente duvidava da onde
-                    ela poderia chegar.
+                    ela poderia chegar. <br>
+                    Nessa foto, ela voou pela primeira vez como chefe de cabine de um avião WideBody.
                 </p>
 
                 <app-quadro>
                     <img src="sobre-nos3.png">
+                </app-quadro>
+
+            </div>
+
+            <div class="sobre4">
+
+                <p>
+                    Tudo isso era tão inspirador, que eu pegava a sua mala e falava 
+                    <strong>"Eu vou ser aelomôça"</strong> <br>
+                    Viajei de avião pela primeira vez com 2 anos de idade (ou um pouco menos).
+                    A maior dificuldade da tripulação foi me tirar de lá!
+                    Nesse dia, ia ter um evento na escolinha sobre a profissão que queriamos seguir. Eu passei batom 
+                    vermelho pra representar a minha mãe, e quem eu queria ser <strong> uma "aelomoça" </strong>
+                </p>
+
+                <app-quadro>
+                    <img src="sobre-nos4.png">
+                </app-quadro>
+
+            </div>
+
+            <div class="sobre5">
+
+                <p>
+                    Em 2013, aconteceu tudo de pior que poderia ser imaginado, acabei perdendo 
+                    meu pai e minha mãe para um acidente de carro, parecia que tudo tinha sido apagado.
+                    <br>
+                    A dor parecia insuperável.
+                </p>
+
+                <app-quadro>
+                    <img src="sobre-nos5.png">
+                </app-quadro>
+
+            </div>
+
+            <div class="sobre6">
+
+                <p>
+                    Em 2013, aconteceu tudo de pior que poderia ser imaginado, acabei perdendo 
+                    meu pai e minha mãe para um acidente de carro, parecia que tudo tinha sido apagado.
+                    <br>
+                    A dor parecia insuperável.
+                </p>
+
+                <app-quadro>
+                    <img src="sobre-nos5.png">
                 </app-quadro>
 
             </div>
