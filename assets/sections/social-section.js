@@ -27,8 +27,14 @@ export class SocialSection extends LitElement {
                 align-items: center;
             }
 
+            .icon {
+                background-color: var(--tom-3);
+            }
+
             app-botao {
                 width: 100%;
+
+                padding: 25px;
             }
       
 
@@ -57,6 +63,26 @@ export class SocialSection extends LitElement {
                 color: var(--tom-3);
             }
 
+            @media (min-width: 760px){
+                
+                :host {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: stretch;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    gap: 20px;
+
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                }
+                
+            }
+
         `
     ];
 
@@ -76,23 +102,35 @@ export class SocialSection extends LitElement {
                 <h1>Acesse as redes sociais!</h1>
 
                 <app-botao>
-                    <a>
+                    <a 
+                    target="_blank" 
+                    href="https://www.instagram.com/mentoriaparavoar">
+
                         <img src="insta-icon.svg" alt="Icon Instagram">
                         <p>@mentoriaparavoar</p>
+
                     </a>
                 </app-botao>
 
                 <app-botao>
-                    <a>
+                    <a
+                    target="_blank" 
+                    href="https://www.instagram.com/marianevillarreal">
+
                         <img src="insta-icon.svg" alt="Icon Instagram">
-                        <p>@mentoriaparavoar</p>
+                        <p>@marianevillarreal</p>
+
                     </a>
                 </app-botao>
 
                 <app-botao>
-                    <a>
-                        <img src="insta-icon.svg" alt="Icon Instagram">
+                    <a
+                    target="_blank" 
+                    href="https://www.instagram.com/mentoriaparavoar">
+
+                        <img src="lkdn-icon.svg" alt="Icon Linkedin" class="icon">
                         <p>@mentoriaparavoar</p>
+
                     </a>
                 </app-botao>
 

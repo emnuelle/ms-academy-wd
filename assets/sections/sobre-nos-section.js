@@ -33,8 +33,12 @@ export class SobreNosSection extends LitElement {
                 flex-direction: row-reverse;
             }
 
-            .sobre2, .sobre4, .sobre6, .sobre8 {
+            .sobre2, .sobre4, .sobre6, .sobre8, .sobre10 {
                 flex-direction: row;
+            }
+
+            .swiper {
+                width: 293px;
             }
 
             app-quadro {
@@ -50,6 +54,12 @@ export class SobreNosSection extends LitElement {
             .img-cortado {
                 width: 100%;
                 height: auto;
+            }
+
+            .img-cortado2 {
+                width: 100%;
+                height: auto;
+                
             }
 
             h1 {
@@ -79,6 +89,27 @@ export class SobreNosSection extends LitElement {
                 line-height: normal;
 
                 margin: 0;
+            }
+
+            @media (min-width: 760px){
+                
+                :host {
+                    padding: 0 0 30rem 0;
+                }
+
+                div {
+
+                width: 400px;
+    
+                }
+
+                .swiper {
+
+                width: 400px;
+                height: 450px;
+
+                }
+                
             }
         `
     ];
@@ -215,7 +246,7 @@ export class SobreNosSection extends LitElement {
                 </p>
 
                 <app-quadro>
-                    <img src="sobre-nos7.png">
+                    <img src="sobre-nos7.jpg" class="img-cortado2">
                 </app-quadro>
 
             </div>
@@ -237,6 +268,61 @@ export class SobreNosSection extends LitElement {
                 </app-quadro>
 
             </div>
+
+            <div class="sobre9">
+
+                <p>
+                Apesar dos desafios trazidos pela pandemia, mantive minha coragem e perseverança. 
+                Tive a bênção de ter um filho, o que deu ainda mais significado à minha jornada na aviação. 
+                Decidi estudar Recursos Humanos, mesmo com adversidades. Recebi outra bênção com a chegada de mais um bebê.
+                 
+                </p>
+
+                <app-quadro>
+                    <img src="sobre-nos9.jpg" >
+                </app-quadro>
+
+            </div>
+    
+            <div class="sobre10">
+
+                <p>
+                Atualmente, além da aviação, trabalho no atendimento, usando minhas habilidades empáticas.
+                Acredito em mim e em meus sonhos, e cada experiência moldou quem sou hoje.
+                Seguirei em frente com determinação e gratidão, 
+                valorizando minha jornada única e inspiradora
+                 
+                </p>
+
+                <app-quadro>
+                    <img src="sobre-nos10.jpg">
+                </app-quadro>
+
+            </div>
+
+            <div class="sobre11">
+
+                <app-quadro class="swiper">
+
+                    <swiper-container 
+                    class="mySwiper" 
+                    pagination="true" 
+                    pagination-dynamic-bullets="true">
+
+                        <swiper-slide>
+                            <img class="img1" src="fb1.webp" alt="Imagem-slider-1"/>
+                        </swiper-slide>
+
+                        <swiper-slide>
+                            <img class="img2" src="fb2.webp" alt="Imagem-slider-2"/>
+                        </swiper-slide>
+
+                    </swiper-container>
+
+                </app-quadro>
+
+            </div>
+
         `;
     }
 }
