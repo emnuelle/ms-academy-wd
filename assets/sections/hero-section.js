@@ -20,7 +20,6 @@ export class HeroSection extends LitElement {
                 right: 0;
                 width: 100%;
 
-                height: auto;
 
             }
 
