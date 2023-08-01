@@ -8,7 +8,7 @@ export class SobreNosSection extends LitElement {
             :host {
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: space-evenly;
                 align-items: center;
                 align-content: center;
                 gap: 53px;
@@ -23,15 +23,6 @@ export class SobreNosSection extends LitElement {
             }
 
             div {
-                /* display: flex;
-                flex-direction: row-reverse;
-                justify-content: center;
-                flex-wrap: nowrap;
-                justify-content: space-evenly;
-
-                align-items: center;
-                gap: 21px; */
-
                 display: flex;
                 width: 293px;
                 height: 170px;
@@ -42,8 +33,14 @@ export class SobreNosSection extends LitElement {
                 flex-direction: row-reverse;
             }
 
+            .sobre2 {
+                flex-direction: row;
+            }
+
             app-quadro {
-                height: 300px;
+                width: 139px;
+                height: 170px;
+                flex-shrink: 0;
             }
 
             img {
@@ -61,11 +58,10 @@ export class SobreNosSection extends LitElement {
 
             p {
 
-                color: #FFF;
-                font-family: Arimo;
+                color: var(--tom-3);
+                font-family: var(--fonte-texto);
                 font-size: 10px;
                 font-style: normal;
-                font-weight: 400;
                 line-height: normal;
 
                 padding: 0.5rem;
@@ -98,16 +94,42 @@ export class SobreNosSection extends LitElement {
                     </strong>
                     <br>
                     Essa é a comissária Marlucy, Ela eentrou na TAM em 1996. Com 18 anos. <br>
-                    <strong>Vulgo: Mamãe</strong> <br>
-                    Eu tinha quase 2 anos quando ela virou aeromoça, a melhor do mundo! Sabe porque? Porque ela venceu
-                    todos os obstáculos que esbarrou, e se manteve <strong>firme.</strong> <br>
-                    Mesmo diante de todas as dificuldades, ela permaneceu ali. <br>
-                    <strong>Sorrindo e amando a sua profissão</strong> <br>
-                    E apesar de estar sempre voando, ela nunca, NUNCA FOI AUSENTE.
+                    <strong>Vulgo: Mamãe</strong>
+                    
                 </p>
 
                 <app-quadro>
                     <img src="sobre-nos1.png">
+                </app-quadro>
+
+            </div>
+
+            <div class="sobre2">
+
+                <p>
+                    Eu tinha quase 2 anos quando ela virou aeromoça, a melhor do mundo! Sabe porque? Porque ela venceu
+                    todos os obstáculos que esbarrou, e se manteve <strong>firme.</strong> <br>
+                    Mesmo diante de todas as dificuldades, ela permaneceu ali. <br>
+                    <strong>Sorrindo e amando a sua profissão</strong>
+                </p>
+
+                <app-quadro>
+                    <img src="sobre-nos2.png">
+                </app-quadro>
+
+            </div>
+
+            <div class="sobre3">
+
+                <p>
+                    E apesar de estar sempre voando, ela nunca, NUNCA FOI AUSENTE.
+                    O esforço e dedicação pela família eram nítidos, tanto quanto a paixão em estar ali! <br>
+                    Ela venceu a prória personalidade por amor. Era tão tímida, que muita gente duvidava da onde
+                    ela poderia chegar.
+                </p>
+
+                <app-quadro>
+                    <img src="sobre-nos3.png">
                 </app-quadro>
 
             </div>
