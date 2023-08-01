@@ -33,7 +33,7 @@ export class SobreNosSection extends LitElement {
                 flex-direction: row-reverse;
             }
 
-            .sobre2, .sobre4, .sobre6 {
+            .sobre2, .sobre4, .sobre6, .sobre8 {
                 flex-direction: row;
             }
 
@@ -46,6 +46,11 @@ export class SobreNosSection extends LitElement {
             img {
                 height: 100%;
             }
+            
+            .img-cortado {
+                width: 100%;
+                height: auto;
+            }
 
             h1 {
                 color: var(--tom-3);
@@ -53,6 +58,15 @@ export class SobreNosSection extends LitElement {
                 font-size: 28px;
                 font-style: normal;
                 font-weight: 700;
+                line-height: normal;
+            }
+
+            h2 {
+                color: var(--tom-3);
+                font-family: var(--fonte-titulo);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
                 line-height: normal;
             }
 
@@ -170,18 +184,59 @@ export class SobreNosSection extends LitElement {
             <div class="sobre6">
 
                 <p>
-                    Em 2013, aconteceu tudo de pior que poderia ser imaginado, acabei perdendo 
-                    meu pai e minha mãe para um acidente de carro, parecia que tudo tinha sido apagado.
-                    <br>
-                    A dor parecia insuperável.
+                    Antes disso já tinha começado o curso. De julho a novembro. <br>
+                    Graças a deus e as várias horas de estudo por dia, fui aprovada 
+                    em todas as matérias de primeira!
+                    Em janeiro de 2014, passei na ANAC <br>
+                    Em julho, entrei na TAM como agente de aeroporto. <br>
+                    <strong> Mais um passo foi dado! </strong> <br>
+                    Passei por várias mudanças, e o engraçado é que o amor pela aviação 
+                    se manteve firme. <br>
+                    Foi a minha maior herança!
                 </p>
 
                 <app-quadro>
-                    <img src="sobre-nos5.png">
+                    <img src="sobre-nos6.png">
                 </app-quadro>
 
             </div>
 
+            <div class="sobre7">
+
+                <p>
+                    O resumo de tudo isso aqui, é só uma coisa: <br>
+                    Só você sabe o que passou para chegar onde está.  <br>
+                    Só você sabe todo o caminho que trilhou.  <br>
+                    Só você entende o quanto seu sonho significa pra você!  <br>
+                    portanto, não deixe de acreditar em quem você é! <br>
+                    Não deixe que ninguçem nesse mundo desmereça a sua história até aqui  <br>
+                    Não de ouvidos a voz do cansaço,  <br>
+                    
+                </p>
+
+                <app-quadro>
+                    <img src="sobre-nos7.png">
+                </app-quadro>
+
+            </div>
+
+            <h2>
+                <strong> Não existe ninguém no mundo como você! </strong>
+            </h2>
+
+            <div class="sobre8">
+
+                <p>
+                    Passei por várias mudanças, e o engraçado é que o amor pela aviação se manteve firme. <br>
+                    Foi a minha maior herança! <br>
+                    Em 2018 fui contratado como comissária da LATAM! 
+                </p>
+
+                <app-quadro>
+                    <img src="sobre-nos8.jpg" class="img-cortado">
+                </app-quadro>
+
+            </div>
         `;
     }
 }
