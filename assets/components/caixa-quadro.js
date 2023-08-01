@@ -37,14 +37,6 @@ export class CaixaQuadro extends LitElement {
                 font-style: normal;
             }
 
-            .titulo, ::slotted(h2){
-                font-size: 1rem;
-                font-weight: 700;
-                line-height: normal;
-                letter-spacing: 0.64px;
-                padding: 0 0 1rem 0;
-            }
-
             .subtitulo, ::slotted(h3) {
                 font-size: .5rem;
                 font-weight: 400;
@@ -84,11 +76,6 @@ export class CaixaQuadro extends LitElement {
         </figure>
 
         <address>
-            <slot name="titulo">
-                <h2 class="titulo">
-                    subtitulo
-                </h2>
-            </slot>
             
             <slot name="subtitulo">
                 <h3 class="subtitulo" >

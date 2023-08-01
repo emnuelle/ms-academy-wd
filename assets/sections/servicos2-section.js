@@ -1,7 +1,9 @@
 import { LitElement, html, css } from 'lit';
+import { section } from '../styles/section-style';
 
 export class Servicos2Section extends LitElement {
     static styles = [
+        section,
         css`
             :host {
                 display: flex;
