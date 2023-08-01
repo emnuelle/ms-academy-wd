@@ -20,12 +20,17 @@ export class SocialSection extends LitElement {
                 width: 100%;
             }
 
-            div {
+            .contatos, .redes-sociais {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
                 align-items: center;
             }
+
+            app-botao {
+                width: 100%;
+            }
+      
 
             h1 {
                 color: var(--tom-3);
@@ -55,10 +60,18 @@ export class SocialSection extends LitElement {
         `
     ];
 
+    mensagemWhatsapp() {
+        let mensagem = "Olá!"
+        return encodeURIComponent(mensagem)
+    }
+
     render() {
+
+        const numeroWhatsapp = "5511940725035"
+
         return html`
 
-            <div>
+            <div class="redes-sociais">
 
                 <h1>Acesse as redes sociais!</h1>
 
@@ -83,9 +96,39 @@ export class SocialSection extends LitElement {
                     </a>
                 </app-botao>
 
-                <img src="plane-icon.svg" alt="img4">
+               
 
             </div>
+
+            <div class="contatos">
+
+                <h1>Entre em contato:</h1>
+
+                <app-botao>
+
+                    <a target="_blank" 
+                    href=${`https://wa.me/${numeroWhatsapp}?text=${this.mensagemWhatsapp()}`}>
+                        <img src="wpp-icon.svg" alt="Icon Whatsapp">
+                        <p>Fale conosco</p>
+
+                    </a>
+
+                </app-botao>
+
+                <app-botao>
+
+                    <a href="mailto:emanuellesoares@naver.com">
+                    <feather-icon icon="mail"></feather-icon>
+                        Nos envie um email
+                    </a>
+
+                </app-botao>
+
+                <img src="plane-icon.svg" alt="img4">
+
+            </div> 
+            
+            
             
         `;
     }
