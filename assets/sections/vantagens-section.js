@@ -68,22 +68,13 @@ export class VantagensSection extends LitElement {
                 section {
                     display: flex;
                     flex-direction: column;
-                    justify-content: flex-start;
-                    align-items: flex-start;
+                    justify-content: center;
+                    align-items: center;
                     gap: 100px;
                 }
             }
 
-            @media (min-width: 1024px){
-                section {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 100px;
-                    
-                }
-            }
+        
         `
     ];
 
