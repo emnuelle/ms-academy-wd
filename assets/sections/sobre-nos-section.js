@@ -13,7 +13,7 @@ export class SobreNosSection extends LitElement {
                 align-content: center;
                 gap: 53px;
 
-                padding: 0 0 14rem 0;
+                padding: 0 0 25rem 0;
 
                 top: 10rem;
                 left: 0;
@@ -37,8 +37,15 @@ export class SobreNosSection extends LitElement {
                 flex-direction: row;
             }
 
-            .swiper {
+            .sobre11 {
                 width: 293px;
+            }
+
+            .sobre-insta-post {
+
+            width: 300px;
+            height: 350px;
+
             }
 
             app-quadro {
@@ -49,6 +56,11 @@ export class SobreNosSection extends LitElement {
 
             img {
                 height: 100%;
+            }
+
+            .img-fix2 {
+                width: 100%;
+                height: auto;
             }
             
             .img-cortado {
@@ -103,7 +115,7 @@ export class SobreNosSection extends LitElement {
     
                 }
 
-                .swiper {
+                .sobre-insta-post {
 
                 width: 400px;
                 height: 450px;
@@ -144,7 +156,7 @@ export class SobreNosSection extends LitElement {
                 </p>
 
                 <app-quadro>
-                    <img src="sobre-nos1.png">
+                    <img src="sobre-nos1.png" alt="sobre nós">
                 </app-quadro>
 
             </div>
@@ -175,7 +187,7 @@ export class SobreNosSection extends LitElement {
                 </p>
 
                 <app-quadro>
-                    <img src="sobre-nos3.png">
+                    <img src="sobre-nos3.png" alt="sobre nós">
                 </app-quadro>
 
             </div>
@@ -192,7 +204,7 @@ export class SobreNosSection extends LitElement {
                 </p>
 
                 <app-quadro>
-                    <img src="sobre-nos4.png">
+                    <img src="sobre-nos4.png" alt="sobre nós">
                 </app-quadro>
 
             </div>
@@ -207,7 +219,7 @@ export class SobreNosSection extends LitElement {
                 </p>
 
                 <app-quadro>
-                    <img src="sobre-nos5.png">
+                    <img src="sobre-nos5.png" alt="sobre nós">
                 </app-quadro>
 
             </div>
@@ -227,7 +239,7 @@ export class SobreNosSection extends LitElement {
                 </p>
 
                 <app-quadro>
-                    <img src="sobre-nos6.png">
+                    <img src="sobre-nos6.png" alt="sobre nós">
                 </app-quadro>
 
             </div>
@@ -246,7 +258,7 @@ export class SobreNosSection extends LitElement {
                 </p>
 
                 <app-quadro>
-                    <img src="sobre-nos7.jpg" class="img-cortado2">
+                    <img src="sobre-nos7.jpg" class="img-cortado2" alt="sobre nós">
                 </app-quadro>
 
             </div>
@@ -264,7 +276,7 @@ export class SobreNosSection extends LitElement {
                 </p>
 
                 <app-quadro>
-                    <img src="sobre-nos8.jpg" class="img-cortado">
+                    <img src="sobre-nos8.jpg" class="img-cortado" alt="sobre nós">
                 </app-quadro>
 
             </div>
@@ -279,7 +291,7 @@ export class SobreNosSection extends LitElement {
                 </p>
 
                 <app-quadro>
-                    <img src="sobre-nos9.jpg" >
+                    <img src="sobre-nos9.jpg" alt="sobre nós">
                 </app-quadro>
 
             </div>
@@ -295,31 +307,22 @@ export class SobreNosSection extends LitElement {
                 </p>
 
                 <app-quadro>
-                    <img src="sobre-nos10.jpg">
+                    <img src="sobre-nos10.jpg" alt="sobre nós">
                 </app-quadro>
 
             </div>
 
             <div class="sobre11">
 
-                <app-quadro class="swiper">
-
-                    <swiper-container 
-                    class="mySwiper" 
-                    pagination="true" 
-                    pagination-dynamic-bullets="true">
-
-                        <swiper-slide>
-                            <img class="img1" src="fb1.webp" alt="Imagem-slider-1"/>
-                        </swiper-slide>
-
-                        <swiper-slide>
-                            <img class="img2" src="fb2.webp" alt="Imagem-slider-2"/>
-                        </swiper-slide>
-
-                    </swiper-container>
-
-                </app-quadro>
+                <a target="_blank" 
+                href="https://www.instagram.com/p/CvGVX7FvI-J/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">
+                    
+                    <app-quadro class="sobre-insta-post">
+        
+                        <img class="img-fix2" loading="lazy" alt="sobre nós / instagram link" src="sobre-nos11.png"/>
+                        
+                    </app-quadro>
+                </a>
 
             </div>
 

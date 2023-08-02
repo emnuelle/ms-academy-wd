@@ -94,7 +94,7 @@ export class ServicosSection extends LitElement {
 
             <div class="arg-1">
                 <a href="servicos-page">
-                    <img src="book-open.svg" alt="icone-like">
+                    <img src="book-open.svg" alt="icone-livro">
                     <app-titulo>E-books</app-titulo>
                     <app-paragrafo>
                         Tenha acesso ao conteúdo de imediato.
@@ -104,7 +104,7 @@ export class ServicosSection extends LitElement {
 
             <div class="arg-2">
                 <a href="servicos-page">
-                    <img src="flag.svg" alt="icone-like">
+                    <img src="flag.svg" alt="icone-bandeira">
                     <app-titulo>Serviços</app-titulo>
                     <app-paragrafo>
                         Receba consultorias personalizadas
@@ -114,7 +114,7 @@ export class ServicosSection extends LitElement {
 
             <div class="arg-3">
                 <a href="servicos-page">
-                    <img src="users.svg" alt="icone-like">
+                    <img src="users.svg" alt="icone-grupo">
                     <app-titulo>Turmas</app-titulo>
                     <app-paragrafo>
                         Dinamica de grupo, Aviação 2.0.

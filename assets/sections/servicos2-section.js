@@ -196,7 +196,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href="https://pay.kiwify.com.br/qyNlHkR">
 
-                                <img  loading="lazy" class="img" src="ebook1.png" alt="e-book-1"/>
+                                <img  loading="lazy" class="img" src="ebook1.png" alt=" E-book / Guia Completo do currículo impecável"/>
 
                             </a>
 
@@ -217,7 +217,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href="https://pay.kiwify.com.br/yviqmns">
 
-                                <img  loading="lazy" class="img" src="ebook2.png" alt="e-book-1"/>
+                                <img  loading="lazy" class="img" src="ebook2.png" alt="E-book / English With Mary"/>
 
                             </a>
 
@@ -238,7 +238,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href="https://pay.kiwify.com.br/LT8ix0O">
 
-                                <img  loading="lazy" class="img" src="ebook3.png" alt="e-book-1"/>
+                                <img  loading="lazy" class="img" src="ebook3.png" alt="e-book / Processo seletivo na prática"/>
 
                             </a>
 
@@ -273,7 +273,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href=${`https://wa.me/${numeroWhatsapp}?text=${this.mensagemWhatsapp()}`}>
 
-                                <img  loading="lazy" class="img" src="serv1.png" alt="serviço-1"/>
+                                <img  loading="lazy" class="img" src="serv1.png" alt="Análise de currícul"/>
 
                             </a>
 
@@ -297,7 +297,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href=${`https://wa.me/${numeroWhatsapp}?text=${this.mensagemWhatsapp()}`}>
 
-                                <img  loading="lazy" class="img" src="serv2.png" alt="serviço-2"/>
+                                <img  loading="lazy" class="img" src="serv2.png" alt="Simulação de entrevista"/>
 
                             </a>
 
@@ -325,7 +325,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href=${`https://wa.me/${numeroWhatsapp}?text=${this.mensagemWhatsapp()}`}>
 
-                                <img  loading="lazy" class="img" src="serv3.png" alt="serviço-3"/>
+                                <img  loading="lazy" class="img" src="serv3.png" alt="Consultoria de Carreira"/>
 
                             </a>
 
@@ -351,7 +351,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href=${`https://wa.me/${numeroWhatsapp}?text=${this.mensagemWhatsapp()}`}>
 
-                                <img  loading="lazy" class="img" src="serv4.png" alt="serviço-4"/>
+                                <img  loading="lazy" class="img" src="serv4.png" alt="Mentoria Individual"/>
 
                             </a>
 
@@ -396,7 +396,7 @@ export class Servicos2Section extends LitElement {
                             target="_blank" 
                             href="https://www.instagram.com/mentoriaparavoar">
 
-                                <img  loading="lazy" class="img" src="coming-soon.png" alt="serviço-4"/>
+                                <img  loading="lazy" class="img" src="coming-soon.png" alt="Aviação 2.0"/>
 
                             </a>
 

@@ -182,7 +182,7 @@ export class FeedbackSection extends LitElement {
 
         <div class="aluno2">
 
-            <img src="aluno2.png" alt="aluno 1">
+            <img src="aluno2.png" alt="aluno 2">
             <div class="aluno2x">
 
                 <h1>Thais Carla</h1>
@@ -195,7 +195,7 @@ export class FeedbackSection extends LitElement {
 
         <div class="aluno3">
 
-            <img src="aluno2.png" alt="aluno 1"/>
+            <img src="aluno2.png" alt="aluno 3"/>
             <div class="aluno2x">
 
                 <h1>Thais Carla</h1>
@@ -208,7 +208,7 @@ export class FeedbackSection extends LitElement {
 
         <div class="aluno4">
 
-            <img src="aluno2.png" alt="aluno 2"/>
+            <img src="aluno2.png" alt="aluno 4"/>
             <div class="aluno2x">
 
                 <h1>Thais Carla</h1>
