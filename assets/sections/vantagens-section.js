@@ -10,7 +10,7 @@ export class VantagensSection extends LitElement {
                 display: flex;
                 display: inline-flex;
                 flex-direction: row;
-                justify-content: space-between;
+                justify-content: center;
                 align-items: center;
                 flex-wrap: nowrap;
 
